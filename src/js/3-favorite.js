@@ -1,18 +1,15 @@
+/* eslint-disable strict */
 function handleFavs(event) {
   const favoriteItem = event.currentTarget;
   const showId = favoriteItem.dataset.id;
 
-  favoriteItem.classList.toggle("favorite");
+  favoriteItem.classList.toggle('favorite');
 
   const isPresent = favArrayId.find((favoriteId) => favoriteId === showId);
   console.log(isPresent);
   if (isPresent === undefined) {
     favArrayId.push(showId);
-    favArrayElement.push([
-      favoriteItem.innerText,
-      favoriteItem.firstChild.nextElementSibling.href,
-      favoriteItem.firstElementChild.lastChild.currentSrc,
-    ]);
+    favArrayElement.push([favoriteItem.innerText, favoriteItem.firstChild.nextElementSibling.href, favoriteItem.firstElementChild.lastChild.currentSrc]);
   } else {
     let indexRemove = favArrayId.findIndex((id) => id === showId);
     console.log(indexRemove);
@@ -26,7 +23,7 @@ function handleFavs(event) {
 
 function renderFavShows(arrayIdsArgument, arrayElementsArgument) {
   favListLeft.innerHTML = "";
-  favListLeft.innerHTML += `<h3 class="fav-title">My favorite TV Shows</h3>`;
+  favListLeft.innerHTML;
   for (let i = 0; i < arrayElementsArgument.length; i++) {
     favListLeft.innerHTML += `<li data-id = '${arrayIdsArgument.id}' class='item favItem'>
             <a href="${arrayElementsArgument[i][1]}" class='item__ref favRef'>

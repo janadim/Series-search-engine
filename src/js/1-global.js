@@ -9,5 +9,5 @@ let favArrayElement = [];
 let localfavArrayId;
 let localfavArrayElement;
 const favListLeft = document.querySelector(".favContainer");
-//let favArray = [];
+
 console.log(">> Ready :)");

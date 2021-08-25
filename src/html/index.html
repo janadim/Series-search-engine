@@ -14,22 +14,36 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
 
-  <body>
-    <main> 
-      <h1>TV Shows Search Engine</h1>
+  <body class="body-cont">
+    <header>
+      <h1 class="header">TV Shows Search Engine</h1>
+    </header>
+    <main class="main-cont"> 
+      
       <form action="#" class="js-form">
         <input class="js-search" type="text" name="search" id="search" placeholder="E.g. Killing Eve" value="">
         <button type="button" class="js-btn">Search</button>
       </form>
       <section class='gen-container'>
         <div class='favContainer'>
-          <h3 class="fav-title">My favorite TV Shows</h3>
+          <!-- <h3 class="fav-title"></h3> -->
         </div>
         <ul class="js-showList">
           Loading TV Shows
         </ul>
     </section>
     </main>
+    <footer class="footer">
+      <small class="footer--small">
+        TV Shows Search Engine &copy;2021
+      </small>
+      <a class="footer--logo" title="Shows engine" target="_blank">
+        <small class="footer--logo__name">
+          Created by Jana D. Titarchuk
+        </small>
+        <img className="footer--logo__icon" src="../images/popcorn.png" alt="Logo" />
+      </a>
+    </footer>
    
 
   <script type= "text/javascript" src="./assets/js/main.js"></script>

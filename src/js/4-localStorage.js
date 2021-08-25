@@ -1,3 +1,4 @@
+
 function setLocalStorage() {
   localStorage.setItem("dataLocalIds", JSON.stringify(favArrayId));
   localStorage.setItem("dataLocalElement", JSON.stringify(favArrayElement));
