@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 
 function setLocalStorage() {
   localStorage.setItem("dataLocalIds", JSON.stringify(favArrayId));

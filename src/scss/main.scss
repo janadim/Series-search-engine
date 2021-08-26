@@ -2,13 +2,23 @@
 @import "core/reset";
 .header{
   height: 5%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .body-cont{
   height: 90%;
+  
+}
+.main-cont{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+.js-form{
+  align-self: center;
+  margin-bottom: 2%;
 }
 .item {
   width: 200px;
@@ -29,15 +39,20 @@
     }
   }
 }
+
+.showlist-cont{
+  grid-column: 2/5;
+margin-left: 5%;
+}
+
 .js-showList {
-  color: black;
-  font-family: $font-main;
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-content: center;
-  grid-column: 2/6;
+  
 }
 .favorite {
   background-color: #e6995a;
@@ -67,7 +82,7 @@
   font-size: 16px;
 }
 .gen-container {
-  height: 100vh;
+  height: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }

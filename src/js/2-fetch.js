@@ -1,3 +1,4 @@
+/* eslint-disable strict */
 function handleButton() {
   let inputValue = document.querySelector(".js-search").value;
   fetch(`//api.tvmaze.com/search/shows?q=${inputValue}`)
