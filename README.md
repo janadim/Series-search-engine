@@ -1,5 +1,5 @@
 # Final Evaluation JavaScript (Adalab)
-Hey! Here I am, writing my first functional website made of JS, Scss and HTML.
+Hey! Here I am, writing my first functional website done with JS, Scss and HTML.
 
 In this website you can find your favorite Tv Shows by just typing the name in the input field, and clicking on "Search" button. Then... magic happens! You will see filtered by name Tv Shows, even though if you haven't type the complete name or made a typo. After reviewing all the items, you can select them as favorites. Once you click on the item, it will appear on the left side of your window, in the "My favorite Tv Shows" list. That's useful if you want to store them for later.
 
