@@ -23,19 +23,27 @@
 .item {
   width: 200px;
   height: 260px;
-  background-color: #568b94;
-  border: 2px solid black;
+  border: 2px solid rgba(7, 7, 7, 0.32);
   margin-right: 20px;
   margin-top: 50px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: transparentize(#c2c8c9, 0.3);
 
   &__ref {
     &-img {
-      width: 150px;
-      height: 200px;
+      display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid rgb(70, 69, 69)
     }
     &-name {
-      color: #e6995a;
-      font-size: 18px;
+      background-color: #c2c8c9;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
     }
   }
 }
@@ -76,7 +84,7 @@
   border-radius: 15px;
   width: 50px;
   height: 25px;
-  margin-top: 3%;
+  margin-top: 5%;
   background-color: rgba(58, 228, 171, 0.603);
 }
 // .fav-title {
@@ -86,11 +94,12 @@
 //   text-align: center;
 // }
 .favItem {
-  width: 150px;
+  width: 200px;
   height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
 }
 .favImg {
   width: 50px;
