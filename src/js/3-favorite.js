@@ -25,10 +25,10 @@ function renderFavShows(arrayIdsArgument, arrayElementsArgument) {
   favListLeft.innerHTML = "";
   favListLeft.innerHTML;
   for (let i = 0; i < arrayElementsArgument.length; i++) {
-    favListLeft.innerHTML += `<li data-id = '${arrayIdsArgument.id}' class='item favItem'>
+    favListLeft.innerHTML += `<li data-id = '${arrayIdsArgument.id}' class=' favItem'>
             
-            <img class="item__ref-img favImg" src="${arrayElementsArgument[i][2]}" alt="Tv Show"></img></a>
-            <h2 class="item__ref-name favName">${arrayElementsArgument[i][0]}</h2></li>`;
+            <img class=" favImg" src="${arrayElementsArgument[i][2]}" alt="Tv Show"></img></a>
+            <h2 class=" favName">${arrayElementsArgument[i][0]}</h2></li>`;
   }
 }
 

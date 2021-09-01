@@ -23,7 +23,7 @@ function renderShows(dataArgument) {
             <h2 class="item__ref-name">${shows.name}</h2></li>`;
     } else {
       showList.innerHTML += `<li data-id = '${shows.id}' class='item'>
-            <a href="${shows.url}" class='item__ref'>
+            <a class='item__ref'>
             <img class="item__ref-img" src="${shows.image.medium}" alt="Tv Show"></img></a>
             <h2 class="item__ref-name">${shows.name}</h2></li>`;
     }
