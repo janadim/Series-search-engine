@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 30px;
 }
 .js-form{
   align-self: center;
@@ -56,6 +57,48 @@
   grid-column: 2/5;
   margin-left: 5%;
 }
+.js-btn{
+ font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    box-shadow: $box-shadow, $box-shadow-inset;
+    background: $btn-bg-gradient;
+    background-size: 200% 200%;
+    animation: slideout 0.5s forwards;
+    margin-bottom: 35%;
+    border: none;
+    // position: relative;
+    transition: all 0.5s ease;
+    &:hover {
+      box-shadow: $box-shadow-hvr, $box-shadow-inset-hvr;
+      animation: slidein 0.5s forwards;
+    }
+    &:active {
+      text-shadow: $text-shadow;
+      transform: translateY(8px) scale(0.93);
+      transition: all 0.1s ease-in;
+    }
+  }
+  @keyframes slidein {
+    from {
+      background-position: 0% 0%;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+  @keyframes slideout {
+    from {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
+
+
 
 .js-showList {
   height: 90%;
@@ -82,18 +125,59 @@
   
   width: 200px;
   height: 100%;
-  padding-left: 10%;
+  // padding-left: 10%;
   position: relative;
 }
 .js-reset-btn{
-  position: absolute;
-  border-radius: 15px;
-  width: 50px;
-  height: 25px;
-  margin-top: 30%;
-  background-color: rgb(161, 165, 164);
-  right: 0;
-}
+   position: absolute;
+  // border-radius: 15px;
+  // width: 50px;
+  // height: 25px;
+   margin-top: 30%;
+  // background-color: rgb(161, 165, 164);
+   right: 0;
+  font-weight: 600;
+    font-size: 12px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 2px 4px;
+    box-shadow: $box-shadow, $box-shadow-inset;
+    background: $btn-bg-gradient;
+    background-size: 200% 200%;
+    animation: slideout 0.5s forwards;
+    margin-bottom: 35%;
+    border: none;
+    // position: relative;
+    transition: all 0.5s ease;
+    &:hover {
+      box-shadow: $box-shadow-hvr, $box-shadow-inset-hvr;
+      animation: slidein 0.5s forwards;
+    }
+    &:active {
+      text-shadow: $text-shadow;
+      transform: translateY(8px) scale(0.93);
+      transition: all 0.1s ease-in;
+    }
+  }
+  @keyframes slidein {
+    from {
+      background-position: 0% 0%;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+  @keyframes slideout {
+    from {
+      background-position: 100% 100%;
+    }
+    to {
+      background-position: 0% 0%;
+    }
+  }
+
+
+
 // .fav-title {
 //   margin: 10px;
 //   font-size: 24px;
@@ -129,7 +213,7 @@
   color: rgb(243, 203, 151);
   position: absolute;
   font-size: 35px;
-  margin-left: 15%;
+  // margin-left: 15%;
 
 }
 .gen-container {

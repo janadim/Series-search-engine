@@ -1,2 +1,29 @@
 // fonts
 $font-main: "Noto Sans HK", sans-serif;
+$btn-font: "Recursive", sans-serif;
+$btn-font-size: 3.25rem;
+$btn-border: none;
+$btn-border-radius: 22px;
+$btn-font-color: white;
+$btn-bg-gradient: linear-gradient(
+  to left top,
+  #885a3a 0%,
+  #c9b09a 50%,
+  #885a3a 100%
+);
+$box-shadow: 0px 0px 20px rgba(243, 222, 203, 0.5),
+  0px 5px 5px -1px rgba(209, 170, 133, 0.246);
+
+$box-shadow-inset: inset 4px 4px 8px rgba(255, 227, 175, 0.522),
+  inset -4px -4px 8px rgba(195, 156, 93, 0.357);
+
+$text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc,
+  0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+
+//hover:
+
+$box-shadow-hvr: 0px 5px 50px rgba(214, 238, 211, 0.75),
+  0px 10px 10px -4px rgba(190, 165, 141, 0.36);
+
+$box-shadow-inset-hvr: inset 4px 4px 8px rgba(255, 231, 175, 0.522),
+  inset -4px -4px 8px rgba(216, 131, 19, 0.357);
