@@ -8,7 +8,7 @@
 }
 .body-cont{
   height: 90%;
-  
+  position: relative;
 }
 .main-cont{
   display: flex;
@@ -28,16 +28,16 @@
   margin-right: 20px;
   margin-top: 50px;
 
-  // &__ref {
-  //   &-img {
-  //     width: 150px;
-  //     height: 200px;
-  //   }
-  //   &-name {
-  //     color: #e6995a;
-  //     font-size: 18px;
-  //   }
-  // }
+  &__ref {
+    &-img {
+      width: 150px;
+      height: 200px;
+    }
+    &-name {
+      color: #e6995a;
+      font-size: 18px;
+    }
+  }
 }
 
 .showlist-cont{
@@ -64,27 +64,30 @@
 // }
 
 .favBox{
-  display: flex;
-  flex-direction: row;
-background-color: #081e22;
-position: relative;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  background-color: #ffffff;
+  width: 200px;
+  height: 100%;
+  padding-left: 10%;
 }
 .js-reset-btn{
-  position: absolute;
-  right: 0;
+  border-radius: 15px;
   width: 50px;
   height: 25px;
+  margin-top: 3%;
+  background-color: rgba(58, 228, 171, 0.603);
 }
-.fav-title {
-  margin: 10px;
-  font-size: 24px;
-  color: #081e22;
-  text-align: center;
-}
+// .fav-title {
+//   margin: 10px;
+//   font-size: 24px;
+//   color: #081e22;
+//   text-align: center;
+// }
 .favItem {
   width: 150px;
   height: 70px;
-  margin-left: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,19 +97,24 @@ position: relative;
   height: 65px;
 }
 .favName {
-  text-align: right;
+  text-align: left;
   font-size: 16px;
+}
+.favTitle{
+  color: rgb(243, 203, 151);
+
 }
 .gen-container {
   height: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.favContainer {
-   height: 100%;
-//   width: 100%;
-//   grid-column: 1/2;
-}
+// .favContainer {
+//    height: 100%;
+//   //  padding-left: 5%;
+//   //  width: 20%;
+// //   grid-column: 1/2;
+// }
 .footer{
  display: flex;
  height: 5%;
