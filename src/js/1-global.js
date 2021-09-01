@@ -9,5 +9,6 @@ let favArrayElement = [];
 let localfavArrayId;
 let localfavArrayElement;
 const favListLeft = document.querySelector(".favContainer");
+const btnReset = document.querySelector(".js-reset-btn");
 
 console.log(">> Ready :)");
